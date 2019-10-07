@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "first_name": "Brander",
+        "last_name": "MacAlroy",
+        "email": "bmacalroy0@twitter.com",
+        "gender": "Male",
+        "car": "Mazda",
+        "job": "Research Associate",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 2,
+        "first_name": "Arnoldo",
+        "last_name": "Swayton",
+        "email": "aswayton1@dmoz.org",
+        "gender": "Male",
+        "car": "Renault",
+        "job": "Web Developer I",
+        "favourite_film ": "Action"
+    },
+    {
+        "id": 3,
+        "first_name": "Francis",
+        "last_name": "Murricanes",
+        "email": "fmurricanes2@comcast.net",
+        "gender": "Male",
+        "car": "Opel",
+        "job": "Design Engineer",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 4,
+        "first_name": "Anthony",
+        "last_name": "Varvell",
+        "email": "avarvell3@wikispaces.com",
+        "gender": "Male",
+        "car": "Renault",
+        "job": "Nuclear Power Engineer",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 5,
+        "first_name": "Merralee",
+        "last_name": "Gerren",
+        "email": "mgerren4@yolasite.com",
+        "gender": "Female",
+        "car": "Renault",
+        "job": "Developer IV",
+        "favourite_film ": "Drama"
+    },
+    {
+        "id": 6,
+        "first_name": "Lindsey",
+        "last_name": "Haffenden",
+        "email": "lhaffenden5@nature.com",
+        "gender": "Female",
+        "car": "Renault",
+        "job": "Safety Technician II",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 7,
+        "first_name": "Chad",
+        "last_name": "Wilmore",
+        "email": "cwilmore6@github.io",
+        "gender": "Female",
+        "car": "Renault",
+        "job": "Professor",
+        "favourite_film ": "Drama"
+    },
+    {
+        "id": 8,
+        "first_name": "Ole",
+        "last_name": "Kingswood",
+        "email": "okingswood7@cocolog-nifty.com",
+        "gender": "Male",
+        "car": "Ford",
+        "job": "Teacher",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 9,
+        "first_name": "Randie",
+        "last_name": "Poland",
+        "email": "rpoland8@sphinn.com",
+        "gender": "Male",
+        "car": "Renault",
+        "job": "Account Coordinator",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 10,
+        "first_name": "Austen",
+        "last_name": "Bretherick",
+        "email": "abretherick9@twitpic.com",
+        "gender": "Male",
+        "car": "Renault",
+        "job": "Professor",
+        "favourite_film ": "Action"
+    },
+    {
+        "id": 11,
+        "first_name": "Ruthie",
+        "last_name": "Letford",
+        "email": "rletforda@netscape.com",
+        "gender": "Female",
+        "car": "Renault",
+        "job": "Director of Sales",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 12,
+        "first_name": "Sonnie",
+        "last_name": "Birkmyre",
+        "email": "sbirkmyreb@ihg.com",
+        "gender": "Female",
+        "car": "Opel",
+        "job": "Nuclear Power Engineer",
+        "favourite_film ": "Romance"
+    },
+    {
+        "id": 13,
+        "first_name": "Gauthier",
+        "last_name": "Lemmanbie",
+        "email": "glemmanbiec@webs.com",
+        "gender": "Male",
+        "car": "Renault",
+        "job": "Executive Secretary",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 14,
+        "first_name": "Elsbeth",
+        "last_name": "Coytes",
+        "email": "ecoytesd@posterous.com",
+        "gender": "Female",
+        "car": "Opel",
+        "job": "Clinical Specialist",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 15,
+        "first_name": "Uriah",
+        "last_name": "Giraudat",
+        "email": "ugiraudate@hubpages.com",
+        "gender": "Male",
+        "car": "Opel",
+        "job": "Legal Assistant",
+        "favourite_film ": "Action"
+    },
+    {
+        "id": 16,
+        "first_name": "Kaitlyn",
+        "last_name": "Kubasek",
+        "email": "kkubasekf@purevolume.com",
+        "gender": "Female",
+        "car": "Mazda",
+        "job": "Computer Systems Analyst IV",
+        "favourite_film ": "Horror"
+    },
+    {
+        "id": 17,
+        "first_name": "Laurene",
+        "last_name": "Shippam",
+        "email": "lshippamg@artisteer.com",
+        "gender": "Female",
+        "car": "Renault",
+        "job": "Account Executive",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 18,
+        "first_name": "Munmro",
+        "last_name": "Pyffe",
+        "email": "mpyffeh@wix.com",
+        "gender": "Male",
+        "car": "Renault",
+        "job": "Librarian",
+        "favourite_film ": "Drama"
+    },
+    {
+        "id": 19,
+        "first_name": "Alvis",
+        "last_name": "Mugford",
+        "email": "amugfordi@deviantart.com",
+        "gender": "Male",
+        "car": "Renault",
+        "job": "Information Systems Manager",
+        "favourite_film ": "Thriller"
+    },
+    {
+        "id": 20,
+        "first_name": "Minerva",
+        "last_name": "Merwe",
+        "email": "mmerwej@youtu.be",
+        "gender": "Female",
+        "car": "Mazda",
+        "job": "Mechanical Systems Engineer",
+        "favourite_film ": "Thriller"
+    }
+]
