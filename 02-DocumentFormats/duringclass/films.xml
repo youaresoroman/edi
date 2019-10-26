@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Films>
+	<film>
+		<title genre="Film fantasy>Czarownica 2</title>
+		<personal_rating>9</personal_rating>
+		<director year="2019">Joachim Ronning</director>
+		<actors>
+			<actor>Angelina Jolie</actor>
+			<actor>Elle Fanning</actor>
+			<actor>Michelle Pfeiffer</actor>
+		</actors>
+	</film>
+	<film>
+		<title genre="Drama">Boże Ciało</title>
+		<personal_rating>9</personal_rating>
+		<director year="2019">Jan Komasa</director>
+		<actors>
+			<actor>Bartosz Bielenia</actor>
+			<actor>Eliza Rycembel</actor>
+			<actor>Tomasz Ziętek</actor>
+		</actors>
+	</film>
+	<film>
+		<title genre="Drama/Action movie">Joker</title>
+		<personal_rating>9</personal_rating>
+		<director year="2019"> Todd Phillips</director>
+		<actors>
+			<actor>Joaquin Phoenix</actor>
+			<actor>Zazie Beetz</actor>
+			<actor>Robert De Niro</actor>
+		</actors>
+	</film>
+	<film>
+		<title genre="Drama/Fantasy">Był sobie pies 2</title>
+		<personal_rating>9</personal_rating>
+		<director year="2019">Gail Mancuso</director>
+		<actors>
+			<actor>Dennis Quaid</actor>
+			<actor>Henry Lau</actor>
+			<actor>Kathryn Prescott</actor>
+		</actors>
+	</film>
+	<film nr="5">
+		<title genre="Drama/Action movie">Ślicznotki</title>
+		<personal_rating>7</personal_rating>
+		<director year="2019">Lorene Scafaria</director>
+		<actors>
+			<actor>Jennifer Lopez</actor>
+			<actor>Lili Reinhart</actor>
+			<actor>Constance Wu</actor>
+		</actors>
+	</film>
+</Films>
