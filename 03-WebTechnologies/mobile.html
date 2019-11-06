@@ -6,7 +6,28 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
+		<button id="button" type="button">Show my phone</button>
 		<script>
+			var myPhone = {
+					brand: 	'Archos',
+					model: 	'50 Power',
+					build_date:	2016,
+					is_working: true,
+					specs:	{android_ver:5.1, language:'English', kernel_ver:'3.10.65'},
+					build_number: 	['5.1.005.p0', '16c321.k2l_u01', '@ARCHOS.2016']
+			};
+			document.getElementById("button").addEventListener("click",function(){
+				var text = ''
+				text += "Brand: " + myPhone.brand + "\n";
+				text += "Model: " + myPhone.model + "\n";
+				text += "Date: " + myPhone.build_date + "\n";
+				text += "Working: " + myPhone.is_working + "\n";
+				text += "Android version: " + myPhone.specs.android_ver + "\n";
+				text += "Kernel version: " + myPhone.specs.kernel_ver + "\n";
+				text += "Language: " + myPhone.specs.language + "\n";
+				text += "Build number: " + myPhone.build_number + "\n";
+				alert(text);
+			});
 		</script>
 	</body>
 </html>

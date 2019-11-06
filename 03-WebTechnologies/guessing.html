@@ -8,6 +8,13 @@
 		<h1>Try to guess</h1>
 
 		<script>
+ 			var rand = Math.floor((Math.random() * 5) + 1); 
+ 			if (rand == prompt("Enter your number", "")) {
+				alert('Good Work');
+			}
+			else {
+				alert('Sorry');
+			}
 			// read user's number (popup window)
 			
 			// create a random number
