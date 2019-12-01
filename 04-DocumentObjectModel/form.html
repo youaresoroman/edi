@@ -8,16 +8,23 @@
 
 <body>
 	<h1>Filling in a form</h1>
-	<form>
+	<form autocomplete="off"> 
 		<p>University:<br><input type="text"></p>
 		<p>Address:<br><input type="text"></p>
 		<button type="button">Hint</button>
 	</form>
 
 	<script>
-		// a JavaScript code here ...
-		var university = "Cracow University of Economics";
-		var address = "Rakowicka 27, Krakow, POLAND";
+		const university = "Cracow University of Economics";
+		const address = "Rakowicka 27, Krakow, POLAND";
+		const hintBnt = document.querySelector("button")
+		
+		hintBnt.addEventListener("click", () =>{
+			let inputField = document.querySelectorAll("input")
+			console.log(inputField)
+			inputField[0].value = university
+			inputField[1].value = address
+		})
 
 	</script>
 </body>

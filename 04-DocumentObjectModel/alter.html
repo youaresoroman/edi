@@ -20,8 +20,35 @@
 		and psychedelic music.</p>
 		
 		<script>
-			// a JavaScript code here ...
+			let h1 = document.querySelector("h1")
+			let bool = false
+			function part2(){
+				if(!bool){
+					h1.textContent += '(Part2)'
+					bool = true
+				}
+			}
+			h1.addEventListener('click', part2)
+			let desp = document.querySelector('p[style]')
+			function showDesp(){
+				desp.setAttribute("style","visibility: visible;")
+			}
+			let h3 = document.querySelector("h3")
+			h3.addEventListener("click", showDesp)
 			
+			let textSong = document.querySelector('p')
+			textSong.addEventListener("click",()=>{
+				textSong.setAttribute("style","font-style: italic;")
+			})
+		
+			textSong.addEventListener("copy",()=>
+				alert("copyrights!!!"))
+
+			let backgrd = document.querySelector('body')
+			backgrd.addEventListener("dblclick", () =>
+				backgrd.setAttribute("style","background: yellow;"))
+			// a JavaScript code here ...
+			desp.addEventListener("click",() => {})
 		</script>
 	</body>
 </html>

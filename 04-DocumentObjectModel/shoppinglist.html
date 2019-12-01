@@ -20,8 +20,21 @@
     </ol>
 
     <script>
-    	// a JavaScript code here ...
+        let btnAdd = document.querySelector("button")
+        let itemList = document.querySelector("ol")
+        btnAdd.addEventListener("click", () =>{
 
+            let newProduct = document.querySelector("input").value
+            let li = document.createElement("li")
+            li.appendChild(document.createTextNode(newProduct))
+
+            itemList.appendChild(li)
+            document.querySelector("input").value = ''
+        })
+        itemList.addEventListener("dblclick", (event)=>{
+            let li = event.target
+            itemList.removeChild(li)
+        })
     </script>
 </body>
 

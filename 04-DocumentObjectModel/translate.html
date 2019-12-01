@@ -7,9 +7,17 @@
 	<body>
 		<h3 onmouseover="textPL(this)">Sticks and stones may break my bones, but words will never harm me.</h3>
 		<script>
-			function textPL(element){
-				element.innerHTML = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią"
+			// a JavaScript code here ...
+			let h3 = document.querySelector('h3')
+			function modifytext(){
+				h3.firstChild.nodeValue = 'Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią'
 			}
+			function modifyTextAgain(){
+				h3.firstChild.nodeValue = 'Sticks and stones may break my bones, but words will never harm me'
+			}
+			h3.addEventListener("mouseover", modifytext)
+			h3.addEventListener("mouseout", modifyTextAgain)
+			// Translation:
 		</script>
 	</body>
 </html>

@@ -23,9 +23,30 @@
 		<textarea rows="15" cols="50"></textarea><br>
 		
 		<script>
-			// a JavaScript code here ...
+			let textarea = document.querySelector("textarea")
+			textarea.value = ""
+			tab = []
+			tabOut = []
+			textarea.addEventListener("input", () => {
+			// Input Timeout
+			setTimeout(()=>textarea.setAttribute("disabled",false),7000)
+			let len = textarea.value.length
+			tab.push(len)
 			
+			setTimeout(() => {
+			let result = document.createElement("p")
+			let charNumber = tab[tab.length - 1] 
+			result.appendChild(document.createTextNode(`Liczba wpisanych znaków ${charNumber}`))
+			tabOut.push(result)
+			let parent = textarea.parentNode
+			parent.insertBefore(tabOut[tab.length-1], textarea)
+		
+			console.log(tab[tab.length-1])
+			}, 8000);
+		
+			})
 		</script>
 		
 	</body>
 </html>
+			

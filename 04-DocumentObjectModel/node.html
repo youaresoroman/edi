@@ -4,10 +4,51 @@
 		<title>Create DOM elements</title>
 		<meta charset="UTF-8">
 	</head>
+	<style>
+		.td{
+			width: 200px;
+			height: 100px;
+			border: 2px solid black;
+			text-align: center;
+		}
+	</style>
 	<body>
+	<table>
+		<tbody>
+			<tr>
+				
+			</tr>
+			<tr>
+				
+			</tr>
+		</tbody>
+	</table>
+		</div>
+		
 		<script>
-			// a JavaScript code here ...
+			let tr = document.querySelectorAll('tr')
+
+			let td1 = document.createElement("td")
+			let td2 = document.createElement("td")
+			let td3 = document.createElement("td")
+			let td4 = document.createElement("td")
 			
+			td1.className = "td"
+			td2.className = "td"
+			td3.className = "td"
+			td4.className = "td"
+
+			td1.appendChild(document.createTextNode("1"))
+			td2.appendChild(document.createTextNode("2"))
+			td3.appendChild(document.createTextNode("3"))
+			td4.appendChild(document.createTextNode("4"))
+
+			tr[0].appendChild(td1)
+			tr[0].appendChild(td2)
+
+			tr[1].appendChild(td3)
+			tr[1].appendChild(td4)			
+
 		</script>
 	</body>
 </html>
